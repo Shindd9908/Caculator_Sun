@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.KotlinCaculatorDemo" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.SUNDemo" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -12,5 +12,34 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <style name="ButtonKeyBroad">
+            <item name="android:textAllCaps">false</item>
+            <item name="android:textSize">20sp</item>
+            <item name="android:scaleX">0.9</item>
+            <item name="android:scaleY">0.9</item>
+            <item name="android:layout_width">0dp</item>
+            <item name="android:gravity">center</item>
+        </style>
+
+        <style name="ButtonExtend" parent="ButtonKeyBroad">
+            <item name="android:background">@drawable/bg_button_extend</item>
+            <item name="android:layout_height">wrap_content</item>
+
+        </style>
+
+        <style name="ButtonCalculator" parent="ButtonKeyBroad">
+            <item name="android:background">@drawable/bg_button_extend</item>
+            <item name="android:layout_height">70dp</item>
+            <item name="android:layout_marginTop">10dp</item>
+        </style>
+
+        <style name="ButtonOperation" parent="ButtonKeyBroad">
+            <item name="android:textColor">@color/colorBackGround</item>
+            <item name="android:background">@drawable/bg_button_operation</item>
+            <item name="android:layout_height">70dp</item>
+            <item name="android:layout_marginTop">10dp</item>
+        </style>
+
     </style>
 </resources>
