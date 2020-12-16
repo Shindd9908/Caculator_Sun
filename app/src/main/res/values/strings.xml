@@ -1,4 +1,46 @@
 <resources>
     <string name="app_name">Kotlin Caculator Demo</string>
+    <string name="appwidget_text">Calculator</string>
+    <string name="add_widget">Add widget</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="three">3</string>
+    <string name="clear">AC</string>
+    <string name="multi">*</string>
+    <string name="add">+</string>
+    <string name="sub">-</string>
+    <string name="divide">/</string>
+    <string name="equal">=</string>
+    <string name="oke">.</string>
     <string name="_123">123</string>
+    <string name="btn_e">e</string>
+    <string name="btn_pi">π</string>
+    <string name="btn_mu">^</string>
+    <string name="btn_del">del</string>
+    <string name="btn_ac">AC</string>
+    <string name="btn_ngMo">(</string>
+    <string name="btn_ngDong">)</string>
+    <string name="btn_division">/</string>
+    <string name="btn_seven">7</string>
+    <string name="btn_eight">8</string>
+    <string name="btn_mutilplication">*</string>
+    <string name="btn_four">4</string>
+    <string name="btn_five">5</string>
+    <string name="btn_sĩ">6</string>
+    <string name="btn_sub">-</string>
+    <string name="btn_one">1</string>
+    <string name="btn_two">2</string>
+    <string name="btn_three">3</string>
+    <string name="btn_add">+</string>
+    <string name="btn_zero">0</string>
+    <string name="btn_ch">.</string>
+    <string name="btn_bang">=</string>
+    <string name="btn_nine">9</string>
 </resources>
